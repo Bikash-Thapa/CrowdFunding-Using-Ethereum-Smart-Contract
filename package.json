@@ -4,15 +4,23 @@
   "description": "Crowdfunding Using Ethereum Smart Contract",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "node server.js"
   },
   "author": "Bikash Thapa",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.4.26",
-    "mocha": "^8.4.0",
+    "fs-extra": "^10.0.0",
     "ganache-cli": "^6.12.2",
-    "web3": "^1.0.0-beta.26",
-    "fs-extra": "^10.0.0"
+    "mocha": "^8.4.0",
+    "next": "10.0.7",
+    "next-routes": "^1.4.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "solc": "^0.4.26",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.0.0-beta.26"
   }
 }
